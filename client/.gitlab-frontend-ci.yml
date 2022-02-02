@@ -1,0 +1,62 @@
+stages:
+  - build
+  - deploy
+
+build prod:
+  image: node:10.15.0-stretch
+  stage: build
+  only:
+    - tags
+  script:
+    - cd client
+    # Update npm
+    - npm update
+    # Install dependencies
+    - npm install
+    # Build App
+    - npm run build
+  artifacts:
+    paths:
+      # Build folder
+      - dist/
+    expire_in: 1 hour
+
+deploy prod:
+  image: python:latest
+  stage: deploy
+  only:
+    - tags
+  script:
+    - cd client
+    - pip install awscli
+    - aws s3 sync ./dist s3://frontendstaticenglishapp
+
+build stage:
+  image: node:10.15.0-stretch
+  stage: build
+  only:
+    - master
+  script:
+    - cd client
+    # Update npm
+    - npm update
+    # Install dependencies
+    - npm install
+    # Build App
+    - npm run build
+  artifacts:
+    paths:
+      # Build folder
+      - client/dist
+    expire_in: 1 hour
+
+deploy stage:
+  image: python:latest
+  stage: deploy
+  only:
+    - master
+  script:
+    - cd client
+    - pip install awscli
+    - aws configure list
+    - aws s3 sync ./dist s3://frontendstaticenglishapp/
