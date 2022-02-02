@@ -31,7 +31,7 @@ const router = new Router({
         {
           path: 'play',
           name: 'Gioca con le parole',
-          component: () => import('@/views/users/contact-us/Index.vue'),
+          component: () => import('@/views/Grammar.vue'),
         },
         {
           path: 'stats',

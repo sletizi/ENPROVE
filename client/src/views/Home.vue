@@ -46,9 +46,7 @@
 import ChooseLanguageToggle from '@/components/ChooseLanguageToggle';
 import ContextComplianceDialog from '@/components/ContextComplianceDialog';
 
-const { GoogleSpreadsheet } = require('google-spreadsheet');
-const doc = new GoogleSpreadsheet('1fGOj0CvY2a49NTCtIzPWGKCjGiH5sP4OYfnMoU7te9c');
-const creds = require('../../google-cred.json');
+
 import axios from 'axios';
 
 export default {
@@ -63,13 +61,13 @@ export default {
       };
     },
     beforeCreate(){
-        doc.useServiceAccountAuth(creds).then(a => {
+        /*doc.useServiceAccountAuth(creds).then(a => {
             console.log('Use cred done!')
             doc.loadInfo().then(info => {
                 console.log("Info loaded");
                 this.sheet = doc.sheetsByIndex[0];
             })
-        });
+        });*/
 
     },
     components: {
@@ -78,7 +76,7 @@ export default {
     },
     methods: {
         translate: function () { 
-            this.sheet.addRow({ SRC_LANG : this.$store.getters.getSourceLang, PAROLA: this.unKnownWord }).then(a => {
+            /*this.sheet.addRow({ SRC_LANG : this.$store.getters.getSourceLang, PAROLA: this.unKnownWord }).then(a => {
                 this.sheet.getRows().then(row => {
                     this.$store.state.row_number = a._rowNumber-2
                     this.translation = row[this.$store.state.row_number].TRADUZIONE;
@@ -92,8 +90,8 @@ export default {
                     //TODO: WRITE MEANINGS
                 }).catch((error) => {
                     console.error(error);
-                });*/              
-            });  
+                });              
+            }); */ 
             
         },
         showComplianceContextDialog: function() {

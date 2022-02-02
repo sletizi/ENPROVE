@@ -1,0 +1,323 @@
+[
+    [
+        {
+            "name":"SIMPLE PAST",
+            "form":"VERB + ED (or irregular form)",
+            "usages": [
+                [
+                    "Finished time period (concluded actions); is specified when",
+                    "Unfinished time word; used a lot with: yesterday, last night, last week",
+                    "Add details to a story; in combination with present perfect",
+                    "Actions in stories",
+                    "Unreal/imaginary things"
+                ]
+            ],
+            "examples": [
+                [
+                    "Leonardo painted the Mona Lisa (finished and completed)",
+                    "I went to the cinema *yesterday*",
+                    "I've studied english in several different countries; i tried a lot of school ",
+                    "He sat down and he ordered the coffe",
+                    "If I won *the lottery*, I'd buy a house"
+                ]
+            ],
+            "moreExamples":
+            [
+                "I WENT to Rome *yesterday*",
+                "I WENT to a modern art exhibition *last week*",
+                "Jack  SPOKE with Mary *yesterday*."
+            ],
+            "type":["past"]    
+        },
+        {
+            "name":"PAST CONTINUOUS",
+            "form":"WAS/WERE + VERB + ING",
+            "usages": [
+                [
+                    "About an interrupted action by anything",
+                    "Some past habits; used a lot with: always, forever, in those days, at that time",
+                    "Emphasis of length of action; used a lot with: all day, all evening, for hours"
+                ]
+            ],
+            "examples": [
+                [
+                    "I was studying, *when Marco called me yesterday*",
+                    "She was *constantly* singing",
+                    "I was working in the garden *all day*"
+                ]
+            ],
+            "moreExamples":[
+                "I was studying *for hours*",
+                "*While I was watching the TV*, somebody knock at the door.",
+                "I was playing football, when I saw my friend.",
+                "*When I first met him* he told me he was studying architecture",
+                "*When the medical team found her* she was bleeding out of her nose.",
+                "*While* we WERE PLAYING with our toy cars, the girls WERE WATCHING TV"
+            ],
+            "type":["past"]
+        },
+        {
+            "name":"PAST PERFECT",
+            "form":"HAD + PAST PARTICIPLE",
+            "usages": [
+                [
+                    "It is useful to ordered past actions; we don't know exactly when, but in the past relative to another past action",
+                    "How long to a point in the past; when + simple past + for",
+                    "Wish + conditional",
+                    "Don't get confused when actions happen close together; use the simple past tense instead"
+                ]
+            ],
+            "examples": [
+                [
+                    "*When I arrived*, the meeting had started",
+                    "*When he graduated* he had been in London *for six years*",
+                    "I *wish* to hadn't gone to bed too late",
+                    "Ex: When I went to the supermarket, I bought some apples (Is obvious what happens first)",
+                    "Jack HAD JUST GOT home *when I phoned*. He said he HAD BEEN in London"
+                ]
+            ],
+            "moreExamples":[
+                "*When they arrived* the match had already started",
+                "She had been to the hospital three times *before she was* allowed to play again",
+                "The teacher said that she hadn't had time to correct our homework"
+            ],
+            "type":["present"]
+        },
+        {
+            "name":"PAST PERFECT CONTINUOUS",
+            "form":"HAD + BEEN + VERB + ING",
+            "usages": [
+                [
+                    "How long to a point in the past; when + simple past + for",
+                    "Some past habits"
+                ]
+            ],
+            "examples": [
+                [
+                    "*This time last year*, I had been studying english for 1 year",
+                    "She was *constantly* singing"
+                ]
+            ],
+            "moreExamples":
+            [
+                "I HAD BEEN WAITING *for ages* for her to write before the letter finally *arrived*",
+                "As it HAD BEEN SNOWING *the whole night* all the roads were blocked (continuous action)"
+            ],
+            "type":["past"]
+        }
+    ],
+    [
+        {
+            "name":"SIMPLE PRESENT",
+            "form":"VERB (add s for third person)",
+            "usages": [
+                [
+                    "Habits (Azioni abituali)",
+                    "Always true (Dati di fatto)",
+                    "Permanent situations (Situazioni permanenti)"
+                ],
+                [
+                    "Future timetables; with this evening, tomorrow, at 10 o'clock"
+                ]
+            ],
+            "examples": [
+                [
+                    "I study english *every morning*",
+                    "Two and two make four",
+                    "I live in London"
+                ],
+                [
+                    "Our train leaves *at 10 o'clock*",
+                    "*Tomorrow* we leave Germany",
+                    "*At the moment* the whole team ARE out of work. (permanent situation)"
+                ]
+            ],
+            "moreExamples":[
+                "She walks every week",
+                "I get up at 7",
+                "How *DO* you usally get to work? (habits; use do for questions)" ,
+                "*Sometimes* I drive myself, and in bad weather I *usually* take the bus",
+                "It *usually* DOESN'T RAIN very much in Texas."
+            
+            ],
+            "type":["present","future"]
+        },
+        {
+            "name":"PRESENT CONTINUOUS",
+            "form":"BE (AM-IS-ARE) + VERB + ING",
+            "usages": [
+                [
+                    "Unfinished actions now",
+                    "Temporary situations; use with: for a few weeks, at the moment",
+                    "Annoying habits; use with always, forever"
+                ],
+                [
+                    "Definite future plans (already organized)"
+                ]
+            ],
+            "examples": [
+                [
+                    "I am studying english now",
+                    "I'm living in London",
+                    "You're forever losing you keys!"
+                ],
+                [
+                    "I'm meeting my father *tomorrow*"
+                ]
+            ],
+            "moreExamples":
+            [ 
+                "*Look over there*. Someone IS TRYING to get on the moving bus.",
+                "He IS PLAYING football *in this moment*",
+                "I'm wondering if you can help me",
+                "I can't come to see you *now*, because I AM FINISHING my homework",
+                "Listen! I  believe Jack IS TAKING (take) a shower"
+            ],
+            "type": ["present", "future"]
+        },
+        {
+            "name":"PRESENT PERFECT",
+            "form":"HAVE/HAS + PAST PARTICIPLE (3RD FORM)",
+            "usages": [
+                [
+                    "Happened in the past, but that's not specified when",
+                    "Life experience; used a lot with: ever, never, already",
+                    "How long; used a lot with since and for; when we want to specify how long we have been doing something",
+                    "Unfinished time word; this week, today, this year when the time is not finished",
+                    "News, recent events; ; used a lot of with just, jet, already, recently"
+                ]
+            ],
+            "examples": [
+                [
+                    "I have studied english in several different countries (when? bho)",
+                    "I've *never* been to Tokyo",
+                    "She has lived in London *for 3 years*",
+                    "I have not seen her *this month*",
+                    "*Recently*, the queen has given a speech"
+                ]
+            ],
+            "moreExamples":[
+                "My elder brother has been in bed *for over a week*",
+                "How long HAVE you HAD your own office?",
+                "They HAVE BROADCAST the programme twice on TV *already*",
+                "We usually drink coffee, but we HAVE NOT DRUNK any *for* more than a week.",
+                "Jim came back from a holiday a few days ago.  But I HAVE NOT SEEN him so far."
+            ],
+            "type":["present"]
+        },
+        {
+            "name":"PRESENT PERFECT CONTINUOUS",
+            "form":"HAVE/HAS + BEEN + VERB + ING",
+            "usages": [
+                [
+                    "With for and since (only action verbs: play, look)",
+                    "Something recently finished (with present consequence)"
+                ]
+            ],
+            "examples": [
+                [
+                    "I have been *playing* football *for 2 years*",
+                    "He has been running (I see in him face that he is tired)"
+                ]
+            ],
+            "moreExamples":
+            [
+                "I have been *looking for* (action verb) a job *for months* and someone gave me your phone number",
+                "*How long* HAVE the boys BEEN PLAYING football ? - I think for half an hour",
+                "I HAVE BEEN LEARNING English *since* I was four years old.",
+                "Our neighbours HAVE BEEN TRAVELLING around Europe *for* three months. They have been in 5 countries so far."
+            ],
+            "type":["present"]
+        }
+    ],
+    [
+        {
+            "name":"SIMPLE FUTURE",
+            "form":"WILL + VERB (or) BE + GOING TO + VERB",
+            "usages": [
+                [
+                    "Future prediction",
+                    "Promises / Request / Refusals / Offers",
+                    "Future conditionals; use with: the first conditional"
+                ],
+                [
+                    "Plans and intentions",
+                    "Future prediction"
+                ]
+            ],
+            "examples": [
+                [
+                    "The sun will rise at 7 am",
+                    "I'll *promise* to help you with your homework",
+                    "If it doesn't rain, we'll go to the park"
+                ],
+                [
+                    "I'm going to buy something",
+                    "The sky is getting darker. It's going to rain"
+                ]
+            ],
+            "moreExamples":[
+                "I think the conservatives will win the next election",
+                "The new community centre is going to for the public next Friday. (plan)",
+                "You've dropped your wallet. I'LL pick it up for you (intention)",
+                "I've not talked (not talk) to Mr. Smith yet, but I AM GOING TO TALK to him soon. (intention)",
+                "Princess Anne IS GOING TO OPEN the new hospital in a few weeks."
+            ],
+            "type":["future"]
+        },
+        {
+            "name":"FUTURE COUNTINUOUS",
+            "form":"WILL + BE + VERB + ING / BE + GOING TO +  VERB + ING",
+            "usages": [
+                [
+                    "OVERLAPPING ACTION; use with: when + simple present; es: starò studiando quando....",
+                ]
+            ],
+            "examples": [
+                [
+                    "I'll be studying english when you arrive"
+                ]
+            ],
+            "moreExamples":["I'll be waiting when you arrive, tonight at 7", "I'm going to studying when you arrive "],
+            "type":["future"]
+        },
+        {
+            "name":"FUTURE PERFECT",
+            "form":"WILL + HAVE/HAS + PAST PARTICIPLE",
+            "usages": [
+                [
+                    "HOW LONG to a point in the future; when + present simple + for or by the time",
+                    "Action finished before a point in the future; use with: by ... , when + present simple"
+                ],
+                ["può essere paragonato al nostro, Sarò, Farò, Avrò"]
+            ],
+            "examples": [
+                [
+                    "When they get married, I'll have known Robert for 10 years",
+                    "By ten o'clock, I'll have finished my homework"
+                ],[""]
+            ],
+            "moreExamples":["I'll have studied every tense by the time I finish this course"],
+            "type":["future"]
+        },
+        {
+            "name":"FUTURE PERFECT CONTINUOUS",
+            "form":"WILL + HAVE/HAS + BEEN + VERB + ING",
+            "usages": [
+                [
+                    "HOW LONG to a point in the future; when + present simple + for or by the time",
+                    "Action finished before a point in the future; use with: by ... , when + present simple"
+                ],
+                ["può essere paragonato al nostro, Sarò, Farò, Avrò"]
+            ],
+            "examples": [
+                [
+                    "In April, she will have been teaching for twelve years",
+                    "When I see you, I'll have been studying, so I'll be tired"
+                ],[""]
+            ],
+            "moreExamples":["I'll have studied every tense by the time I finish this course"],
+            "type":["future"]
+        }
+    ]
+]

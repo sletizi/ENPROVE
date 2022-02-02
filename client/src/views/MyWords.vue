@@ -5,9 +5,6 @@
 </template>
 
 <script>
-const { GoogleSpreadsheet } = require('google-spreadsheet');
-const doc = new GoogleSpreadsheet('1fGOj0CvY2a49NTCtIzPWGKCjGiH5sP4OYfnMoU7te9c');
-const creds = require('../../google-cred.json');
 export default {
     data() {
         return {
@@ -16,7 +13,7 @@ export default {
         };
     },
     beforeCreate(){
-        doc.useServiceAccountAuth(creds).then(a => {
+        /*doc.useServiceAccountAuth(creds).then(a => {
             console.log('Use cred done!')
             doc.loadInfo().then(info => {
                 console.log("Info loaded");
@@ -31,7 +28,7 @@ export default {
                     });
                 })
             })
-        });
+        });*/
     },
     created(){
         
