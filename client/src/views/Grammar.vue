@@ -6,15 +6,6 @@
 
 <script>
 export default {
-    data() {
-       
-    },
-    beforeCreate(){
-        
-    },
-    created(){
-        
-    },
     components: {
         Verbs: () => import('@/components/TenseVerbCard'),
     },

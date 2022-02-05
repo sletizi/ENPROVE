@@ -37,7 +37,12 @@ const router = new Router({
           path: 'stats',
           name: '',
           component: () => import('@/views/users/faq/Index.vue'),
-        }
+        },
+        {
+          path: 'grammar',
+          name: 'Grammar',
+          component: () => import('@/views/Grammar.vue'),
+        },
       ],
     },
     {

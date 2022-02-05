@@ -14,17 +14,17 @@
     <v-card class="mx-auto" max-width="344">
       <v-card-text>
         <p class="text-h5 text--primary font-weight-black text-center">
-          {{verbsChuncked[nr][nc].name}}
+          {{verbsChuncked[nc-1][nr-1].name}}
         </p>
         <div class="text--primary text-center font-weight-bold">
-          <p> {{verbsChuncked[nr][nc].form}}</p>
+          <p> {{verbsChuncked[nc-1][nr-1].form}}</p>
         </div>
         <p> When use it: </p>
         <div>
-          <ul v-for="(macro_usage, macro_index) in verbsChuncked[nr][nc].usages">
-            <li v-for="(usage, usage_index) in verbsChuncked[nr][nc].macro_usage" class= "font-weight-medium"> {{usage}}
+          <ul v-for="(macro_usage, macro_index) in verbsChuncked[nc-1][nr-1].usages" :key="macro_index">
+            <li v-for="(usage, usage_index) in macro_usage" class= "font-weight-medium" :key="usage_index"> {{usage}}
               <ul>
-                <li class= "font-weight-light"> {{ verbsChuncked[macro_index][usage_index].examples }} </li>
+                <li class= "font-weight-light"> {{ verbsChuncked[nc-1][nr-1].examples[macro_index][usage_index]}} </li>
               </ul>
             </li>
             <br>
@@ -32,7 +32,7 @@
         </div>
       </v-card-text>
       <v-card-actions>
-        <v-btn text color="teal accent-4" @click="reveal = true" v-if="verbsChuncked[nr][nc].moreExamples.length > 0">
+        <v-btn text color="teal accent-4" @click="reveal = true" v-if="verbsChuncked[nc-1][nr-1].moreExamples.length > 0">
           See more examples
         </v-btn>
       </v-card-actions>
@@ -41,10 +41,10 @@
         <v-card v-if="reveal" class="transition-fast-in-fast-out v-card--reveal" style="height: 100%;">
           <v-card-text class="pb-0">
             <p class="text-h7 text--primary">
-              EXAMPLES - {{verbsChuncked[nr][nc].name}}
+              EXAMPLES - {{verbsChuncked[nc-1][nr-1].name}}
             </p>
             <ul>
-              <li v-for="example in verbsChuncked[nr][nc].moreExamples">{{example}}</li>
+              <li v-for="(example, ex_index) in verbsChuncked[nc-1][nr-1].moreExamples" :key="ex_index">{{example}}</li>
             </ul>
           </v-card-text>
           <v-card-actions class="pt-0">
@@ -79,14 +79,15 @@ import verbs from '@/data/verb-tenses.json';
     computed:{
         verbsChuncked(){
             var split = this.subArrays(4,verbs)
+            console.log(split)
             return split
         } 
     },
     data() {
-      return {
-        reveal: false,
-      };
-    }
+        return {
+            reveal: false,
+        };
+    },
   }
 </script>
 

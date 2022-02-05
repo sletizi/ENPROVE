@@ -23,6 +23,7 @@ export default {
         { icon: "mdi-format-list-checks", title: "Your words", route:"my_words"},
         { icon: "mdi-chart-line", title: "Stats", route:"contact-us"},
         { icon: "mdi-nintendo-game-boy", title: "Play with words", route:"contact-us"},
+        { icon: "mdi-book", title: "Grammar", route:"grammar"},
         { icon: "mdi-cog", title: "Settings", route:"faq"}
       ]
     }
