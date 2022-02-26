@@ -1,30 +1,29 @@
 <template>
 <v-container fluid class="pr-6 ps-6 me-6">
 
-
-  <v-row v-for="nr in 4" :key="nr" >
+  <v-row v-for="nr in 4" :key="nr" class = 'mx-auto align-center justify-center'>
             <v-col  
             v-for="nc in 3" 
             :key="nc"
             md="3"
             sm="6"
             xs="6"
-            align="center">
+            class = 'mx-auto align-center justify-center'>
 
-    <v-card class="mx-auto" max-width="344">
+    <v-card class="mx-auto" min-height='600px'>
       <v-card-text>
         <p class="text-h5 text--primary font-weight-black text-center">
           {{verbsChuncked[nc-1][nr-1].name}}
         </p>
         <div class="text--primary text-center font-weight-bold">
-          <p> {{verbsChuncked[nc-1][nr-1].form}}</p>
+          <p class = 'green--text'> {{verbsChuncked[nc-1][nr-1].form}}</p>
         </div>
         <p> When use it: </p>
         <div>
           <ul v-for="(macro_usage, macro_index) in verbsChuncked[nc-1][nr-1].usages" :key="macro_index">
-            <li v-for="(usage, usage_index) in macro_usage" class= "font-weight-medium" :key="usage_index"> {{usage}}
+            <li v-for="(usage, usage_index) in macro_usage" class= "font-weight-black ma-4" :key="usage_index"> {{usage}}
               <ul>
-                <li class= "font-weight-light"> {{ verbsChuncked[nc-1][nr-1].examples[macro_index][usage_index]}} </li>
+                <li class= "font-weight-light font-italic"> {{ verbsChuncked[nc-1][nr-1].examples[macro_index][usage_index]}} </li>
               </ul>
             </li>
             <br>

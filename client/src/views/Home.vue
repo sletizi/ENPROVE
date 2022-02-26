@@ -13,6 +13,7 @@
                 solo
                 label="Put here your unknown word"
                 clearable
+                
                 ></v-text-field>
             </v-col>
         </v-row>  
@@ -22,6 +23,7 @@
                     <v-btn
                     v-on:click="translate(); loading_translation=true"
                     :loading="loading_translation"
+                    :disabled="disableIfEmpty"
                     rounded
                     color="primary"
                     dark
@@ -60,15 +62,10 @@ export default {
         show_change_src_lang_dialog: false
       };
     },
-    beforeCreate(){
-        /*doc.useServiceAccountAuth(creds).then(a => {
-            console.log('Use cred done!')
-            doc.loadInfo().then(info => {
-                console.log("Info loaded");
-                this.sheet = doc.sheetsByIndex[0];
-            })
-        });*/
-
+    computed: {
+        disableIfEmpty() {
+            return this.unKnownWord.length <= 0;
+        }
     },
     components: {
         'toggle-languages': ChooseLanguageToggle, 
@@ -76,6 +73,19 @@ export default {
     },
     methods: {
         translate: function () { 
+            const body = JSON.stringify({
+                srcLang: this.$store.getters.getSourceLang,
+                targetLang: this.getOppositeLang(this.$store.getters.getSourceLang),
+                word: this.unKnownWord
+            });
+            axios.post("localhost:3002/translations", body).then((res) => {
+                console.log(res.data[0].meanings)
+                this.translation = //TODO;
+                this.loading_translation=false
+                this.showComplianceContextDialog();
+            }).catch((error) => {
+                console.error(error);
+            });
             /*this.sheet.addRow({ SRC_LANG : this.$store.getters.getSourceLang, PAROLA: this.unKnownWord }).then(a => {
                 this.sheet.getRows().then(row => {
                     this.$store.state.row_number = a._rowNumber-2
@@ -97,13 +107,13 @@ export default {
         showComplianceContextDialog: function() {
             this.show_compliance_dialog = true
         },
-        checkProbableErrorInSource: function(row) {
-            if(row.SRC_LANG != row.DET_LANG){
-                console.log("WRONG SRC_LANG")
-                this.show_change_src_lang_dialog = true
-            }
+        getOppositeLang: function(lang) {
+            if (lang == "it") {
+                return "en"
+            }else {
+                return "it"
+            } 
         }
-
-  }
+    }
 }
 </script>

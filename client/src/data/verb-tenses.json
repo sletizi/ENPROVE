@@ -1,4 +1,108 @@
-[{
+[
+{
+    "name": "SIMPLE PAST",
+    "form": "VERB + ED (or irregular form)",
+    "usages": [
+        [
+            "Finished time period (concluded actions); is specified when",
+            "Unfinished time word; used a lot with: yesterday, last night, last week",
+            "Add details to a story; in combination with present perfect",
+            "Actions in stories",
+            "Unreal/imaginary things"
+        ]
+    ],
+    "examples": [
+        [
+            "Leonardo painted the Mona Lisa (finished and completed)",
+            "I went to the cinema *yesterday*",
+            "I've studied english in several different countries; i tried a lot of school ",
+            "He sat down and he ordered the coffe",
+            "If I won *the lottery*, I'd buy a house"
+        ]
+    ],
+    "moreExamples": [
+        "I WENT to Rome *yesterday*",
+        "I WENT to a modern art exhibition *last week*",
+        "Jack  SPOKE with Mary *yesterday*."
+    ],
+    "type": ["past"]
+},
+{
+    "name": "PAST CONTINUOUS",
+    "form": "WAS/WERE + VERB + ING",
+    "usages": [
+        [
+            "About an interrupted action by anything",
+            "Some past habits; used a lot with: always, forever, in those days, at that time",
+            "Emphasis of length of action; used a lot with: all day, all evening, for hours"
+        ]
+    ],
+    "examples": [
+        [
+            "I was studying, *when Marco called me yesterday*",
+            "She was *constantly* singing",
+            "I was working in the garden *all day*"
+        ]
+    ],
+    "moreExamples": [
+        "I was studying *for hours*",
+        "*While I was watching the TV*, somebody knock at the door.",
+        "I was playing football, when I saw my friend.",
+        "*When I first met him* he told me he was studying architecture",
+        "*When the medical team found her* she was bleeding out of her nose.",
+        "*While* we WERE PLAYING with our toy cars, the girls WERE WATCHING TV"
+    ],
+    "type": ["past"]
+},
+{
+    "name": "PAST PERFECT",
+    "form": "HAD + PAST PARTICIPLE",
+    "usages": [
+        [
+            "It is useful to ordered past actions; we don't know exactly when, but in the past relative to another past action",
+            "How long to a point in the past; when + simple past + for",
+            "Wish + conditional",
+            "Don't get confused when actions happen close together; use the simple past tense instead"
+        ]
+    ],
+    "examples": [
+        [
+            "*When I arrived*, the meeting had started",
+            "*When he graduated* he had been in London *for six years*",
+            "I *wish* to hadn't gone to bed too late",
+            "Ex: When I went to the supermarket, I bought some apples (Is obvious what happens first)",
+            "Jack HAD JUST GOT home *when I phoned*. He said he HAD BEEN in London"
+        ]
+    ],
+    "moreExamples": [
+        "*When they arrived* the match had already started",
+        "She had been to the hospital three times *before she was* allowed to play again",
+        "The teacher said that she hadn't had time to correct our homework"
+    ],
+    "type": ["present"]
+},
+{
+    "name": "PAST PERFECT CONTINUOUS",
+    "form": "HAD + BEEN + VERB + ING",
+    "usages": [
+        [
+            "How long to a point in the past; when + simple past + for",
+            "Some past habits"
+        ]
+    ],
+    "examples": [
+        [
+            "*This time last year*, I had been studying english for 1 year",
+            "She was *constantly* singing"
+        ]
+    ],
+    "moreExamples": [
+        "I HAD BEEN WAITING *for ages* for her to write before the letter finally *arrived*",
+        "As it HAD BEEN SNOWING *the whole night* all the roads were blocked (continuous action)"
+    ],
+    "type": ["past"]
+},
+{
     "name": "SIMPLE PRESENT",
     "form": "VERB (add s for third person)",
     "usages": [
@@ -117,109 +221,6 @@
         "Our neighbours HAVE BEEN TRAVELLING around Europe *for* three months. They have been in 5 countries so far."
     ],
     "type": ["present"]
-},
-{
-    "name": "SIMPLE PAST",
-    "form": "VERB + ED (or irregular form)",
-    "usages": [
-        [
-            "Finished time period (concluded actions); is specified when",
-            "Unfinished time word; used a lot with: yesterday, last night, last week",
-            "Add details to a story; in combination with present perfect",
-            "Actions in stories",
-            "Unreal/imaginary things"
-        ]
-    ],
-    "examples": [
-        [
-            "Leonardo painted the Mona Lisa (finished and completed)",
-            "I went to the cinema *yesterday*",
-            "I've studied english in several different countries; i tried a lot of school ",
-            "He sat down and he ordered the coffe",
-            "If I won *the lottery*, I'd buy a house"
-        ]
-    ],
-    "moreExamples": [
-        "I WENT to Rome *yesterday*",
-        "I WENT to a modern art exhibition *last week*",
-        "Jack  SPOKE with Mary *yesterday*."
-    ],
-    "type": ["past"]
-},
-{
-    "name": "PAST CONTINUOUS",
-    "form": "WAS/WERE + VERB + ING",
-    "usages": [
-        [
-            "About an interrupted action by anything",
-            "Some past habits; used a lot with: always, forever, in those days, at that time",
-            "Emphasis of length of action; used a lot with: all day, all evening, for hours"
-        ]
-    ],
-    "examples": [
-        [
-            "I was studying, *when Marco called me yesterday*",
-            "She was *constantly* singing",
-            "I was working in the garden *all day*"
-        ]
-    ],
-    "moreExamples": [
-        "I was studying *for hours*",
-        "*While I was watching the TV*, somebody knock at the door.",
-        "I was playing football, when I saw my friend.",
-        "*When I first met him* he told me he was studying architecture",
-        "*When the medical team found her* she was bleeding out of her nose.",
-        "*While* we WERE PLAYING with our toy cars, the girls WERE WATCHING TV"
-    ],
-    "type": ["past"]
-},
-{
-    "name": "PAST PERFECT",
-    "form": "HAD + PAST PARTICIPLE",
-    "usages": [
-        [
-            "It is useful to ordered past actions; we don't know exactly when, but in the past relative to another past action",
-            "How long to a point in the past; when + simple past + for",
-            "Wish + conditional",
-            "Don't get confused when actions happen close together; use the simple past tense instead"
-        ]
-    ],
-    "examples": [
-        [
-            "*When I arrived*, the meeting had started",
-            "*When he graduated* he had been in London *for six years*",
-            "I *wish* to hadn't gone to bed too late",
-            "Ex: When I went to the supermarket, I bought some apples (Is obvious what happens first)",
-            "Jack HAD JUST GOT home *when I phoned*. He said he HAD BEEN in London"
-        ]
-    ],
-    "moreExamples": [
-        "*When they arrived* the match had already started",
-        "She had been to the hospital three times *before she was* allowed to play again",
-        "The teacher said that she hadn't had time to correct our homework"
-    ],
-    "type": ["present"]
-},
-{
-    "name": "PAST PERFECT CONTINUOUS",
-    "form": "HAD + BEEN + VERB + ING",
-    "usages": [
-        [
-            "How long to a point in the past; when + simple past + for",
-            "Some past habits"
-        ]
-    ],
-    "examples": [
-        [
-            "*This time last year*, I had been studying english for 1 year",
-            "She was *constantly* singing"
-        ]
-    ],
-    "moreExamples": [
-        "I HAD BEEN WAITING *for ages* for her to write before the letter finally *arrived*",
-        "As it HAD BEEN SNOWING *the whole night* all the roads were blocked (continuous action)"
-    ],
-    "type": ["past"]
 },
 {
     "name": "SIMPLE FUTURE",
